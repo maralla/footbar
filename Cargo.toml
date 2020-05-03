@@ -1,0 +1,17 @@
+[package]
+name = "footbar"
+version = "0.1.0"
+authors = ["maralla <maralla.ai@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = "^0"
+gdk = "^0"
+gio = "^0"
+chrono = "0.4"
+glib = "^0"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+lazy_static = "1.4.0"
